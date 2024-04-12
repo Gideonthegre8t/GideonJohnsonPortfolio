@@ -21,7 +21,7 @@ function Project() {
   const handleProjectPortfolio = () => {
     const portfolioUrl =
       process.env.PUBLIC_URL +
-      "https://drive.google.com/file/d/1H-5dAuNiFs3iw-iz_82zkzcfzRaSwBQ9/view?usp=drive_link";
+      "https://Gideonthegre8t.github.io/GideonJohnsonPortfolio";
     window.open(portfolioUrl, "_blank");
   };
 
@@ -29,21 +29,21 @@ function Project() {
   const handleInvesmentGithub = () => {
     const investGithubUrl =
       process.env.PUBLIC_URL +
-      "https://drive.google.com/file/d/1H-5dAuNiFs3iw-iz_82zkzcfzRaSwBQ9/view?usp=drive_link";
+      "https://github.com/Gideonthegre8t/portfolio-website-2";
     window.open(investGithubUrl, "_blank");
   };
 
   const handleFinancialGithub = () => {
     const FinancialGithubUrl =
       process.env.PUBLIC_URL +
-      "https://drive.google.com/file/d/1H-5dAuNiFs3iw-iz_82zkzcfzRaSwBQ9/view?usp=drive_link";
+      "https://github.com/Gideonthegre8t/portfolio-website-1";
     window.open(FinancialGithubUrl, "_blank");
   };
 
   const handlePortfolioGithub = () => {
     const PortfolioGithubUrl =
       process.env.PUBLIC_URL +
-      "https://drive.google.com/file/d/1H-5dAuNiFs3iw-iz_82zkzcfzRaSwBQ9/view?usp=drive_link";
+      "https://github.com/Gideonthegre8t/GideonJohnsonPortfolio";
     window.open(PortfolioGithubUrl, "_blank");
   };
 
