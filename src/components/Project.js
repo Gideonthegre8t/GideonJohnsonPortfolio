@@ -1,51 +1,33 @@
 import React from "react";
 import Investment from "../assets/images/Investment.png";
 import Financial from "../assets/images/Financial.png";
-import Portfolio from "../assets/images/Portfolio.png"
+import Portfolio from "../assets/images/Portfolio.png";
 
 function Project() {
-  //Handle OnClick for project
+  // Handle OnClick for project
   const handleProjectInvestment = () => {
-    const investUrl =
-      process.env.PUBLIC_URL +
-      "https://gideonthegre8t.github.io/portfolio-website-2/";
-    window.open(investUrl, "_blank");
+    window.open("https://gideonthegre8t.github.io/portfolio-website-2/", "_blank");
   };
 
   const handleProjectFinancial = () => {
-    const financialUrl =
-      process.env.PUBLIC_URL +
-      "https://gideonthegre8t.github.io/portfolio-website-1/";
-    window.open(financialUrl, "_blank");
+    window.open("https://gideonthegre8t.github.io/portfolio-website-1/", "_blank");
   };
 
   const handleProjectPortfolio = () => {
-    const portfolioUrl =
-      process.env.PUBLIC_URL +
-      "https://Gideonthegre8t.github.io/GideonJohnsonPortfolio";
-    window.open(portfolioUrl, "_blank");
+    window.open("https://Gideonthegre8t.github.io/GideonJohnsonPortfolio", "_blank");
   };
 
-  //Handle OnClick for Github
+  // Handle OnClick for Github
   const handleInvesmentGithub = () => {
-    const investGithubUrl =
-      process.env.PUBLIC_URL +
-      "https://github.com/Gideonthegre8t/portfolio-website-2";
-    window.open(investGithubUrl, "_blank");
+    window.open("https://github.com/Gideonthegre8t/portfolio-website-2", "_blank");
   };
 
   const handleFinancialGithub = () => {
-    const FinancialGithubUrl =
-      process.env.PUBLIC_URL +
-      "https://github.com/Gideonthegre8t/portfolio-website-1";
-    window.open(FinancialGithubUrl, "_blank");
+    window.open("https://github.com/Gideonthegre8t/portfolio-website-1", "_blank");
   };
 
   const handlePortfolioGithub = () => {
-    const PortfolioGithubUrl =
-      process.env.PUBLIC_URL +
-      "https://github.com/Gideonthegre8t/GideonJohnsonPortfolio";
-    window.open(PortfolioGithubUrl, "_blank");
+    window.open("https://github.com/Gideonthegre8t/GideonJohnsonPortfolio", "_blank");
   };
 
   return (
@@ -64,11 +46,7 @@ function Project() {
               </div>
             </div>
             <div className="project-links">
-              {" "}
-              <button
-                onClick={handleProjectInvestment}
-                className="preview-button"
-              >
+              <button onClick={handleProjectInvestment} className="preview-button">
                 Live Preview
               </button>
               <button onClick={handleInvesmentGithub} className="git-button">
@@ -85,11 +63,7 @@ function Project() {
               </div>
             </div>
             <div className="project-links">
-              {" "}
-              <button
-                onClick={handleProjectFinancial}
-                className="preview-button"
-              >
+              <button onClick={handleProjectFinancial} className="preview-button">
                 Live Preview
               </button>
               <button onClick={handleFinancialGithub} className="git-button">
@@ -97,26 +71,17 @@ function Project() {
               </button>
             </div>
           </div>
-
           <div className="project-container2">
             <div className="card">
               <div className="project-top">
-                <img
-                  className="financial"
-                  src={Portfolio}
-                  alt="portfolio-pic"
-                />
+                <img className="financial" src={Portfolio} alt="portfolio-pic" />
                 <div className="project-text">
-                  <h3 className="project-title">Portflio Website</h3>
+                  <h3 className="project-title">Portfolio Website</h3>
                   <p>Responsive and functional React website</p>
                 </div>
               </div>
               <div className="project-links">
-                {" "}
-                <button
-                  onClick={handleProjectPortfolio}
-                  className="preview-button"
-                >
+                <button onClick={handleProjectPortfolio} className="preview-button">
                   Live Preview
                 </button>
                 <button onClick={handlePortfolioGithub} className="git-button">

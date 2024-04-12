@@ -14,7 +14,7 @@ function Technology() {
         <div className="tech-card">
           <div className="skill-level">
             <h4>Html</h4>
-            <h4 className="tiny">Advanced</h4>
+            <h4 className="tiny">Expert</h4>
           </div>
 
           <div className="meter">
@@ -28,7 +28,7 @@ function Technology() {
         <div className="tech-card">
           <div className="skill-level">
             <h4>CSS</h4>
-            <h4 className="tiny">Advanced</h4>
+            <h4 className="tiny">Expert</h4>
           </div>
 
           <div className="meter">
@@ -43,7 +43,7 @@ function Technology() {
         <div className="tech-card">
           <div className="skill-level">
             <h4>JavaScript</h4>
-            <h4 className="tiny">Expert</h4>
+            <h4 className="tiny">Advanced</h4>
           </div>
 
           <div className="meter">
@@ -57,7 +57,7 @@ function Technology() {
         <div className="tech-card">
           <div className="skill-level">
             <h4>React</h4>
-            <h4 className="tiny">Regular</h4>
+            <h4 className="tiny">Intermediate</h4>
           </div>
 
           <div className="meter">
