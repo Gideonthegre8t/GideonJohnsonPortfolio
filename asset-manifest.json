@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/GideonJohnsonPortfolio/static/css/main.833bb804.css",
-    "main.js": "/GideonJohnsonPortfolio/static/js/main.63184522.js",
+    "main.js": "/GideonJohnsonPortfolio/static/js/main.cbff6adc.js",
     "static/js/453.acca0757.chunk.js": "/GideonJohnsonPortfolio/static/js/453.acca0757.chunk.js",
     "static/media/Financial.png": "/GideonJohnsonPortfolio/static/media/Financial.59967685b8267fd964c2.png",
     "static/media/Poppins-Regular.ttf": "/GideonJohnsonPortfolio/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Portfolio.png": "/GideonJohnsonPortfolio/static/media/Portfolio.25a9ed0c5ad053e874b9.png",
     "static/media/Investment.png": "/GideonJohnsonPortfolio/static/media/Investment.03dd1121d2cdb4eff63f.png",
     "static/media/GIDEON.png": "/GideonJohnsonPortfolio/static/media/GIDEON.259695b9a6a7900e2378.png",
     "static/media/Ellipse 2.png": "/GideonJohnsonPortfolio/static/media/Ellipse 2.3b02d14a29733cb7448c.png",
     "static/media/full-ellipse.png": "/GideonJohnsonPortfolio/static/media/full-ellipse.5b746d213233564eb689.png",
     "index.html": "/GideonJohnsonPortfolio/index.html",
     "main.833bb804.css.map": "/GideonJohnsonPortfolio/static/css/main.833bb804.css.map",
-    "main.63184522.js.map": "/GideonJohnsonPortfolio/static/js/main.63184522.js.map",
+    "main.cbff6adc.js.map": "/GideonJohnsonPortfolio/static/js/main.cbff6adc.js.map",
     "453.acca0757.chunk.js.map": "/GideonJohnsonPortfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.833bb804.css",
-    "static/js/main.63184522.js"
+    "static/js/main.cbff6adc.js"
   ]
 }
