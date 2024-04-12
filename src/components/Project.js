@@ -1,6 +1,7 @@
 import React from "react";
 import Investment from "../assets/images/Investment.png";
 import Financial from "../assets/images/Financial.png";
+import Portfolio from "../assets/images/Portfolio.png"
 
 function Project() {
   //Handle OnClick for project
@@ -102,12 +103,12 @@ function Project() {
               <div className="project-top">
                 <img
                   className="financial"
-                  src={Financial}
-                  alt="financial-pic"
+                  src={Portfolio}
+                  alt="portfolio-pic"
                 />
                 <div className="project-text">
                   <h3 className="project-title">Portflio Website</h3>
-                  <p>Responsive and functional React websitegit push -u origin main</p>
+                  <p>Responsive and functional React website</p>
                 </div>
               </div>
               <div className="project-links">
