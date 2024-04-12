@@ -107,7 +107,7 @@ function Project() {
                 />
                 <div className="project-text">
                   <h3 className="project-title">Portflio Website</h3>
-                  <p>Responsive and functional React website</p>
+                  <p>Responsive and functional React websitegit push -u origin main</p>
                 </div>
               </div>
               <div className="project-links">
